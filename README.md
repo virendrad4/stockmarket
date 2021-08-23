@@ -10,12 +10,12 @@ This is a tiny scale model of Stock Market. It contains a Java backend with H2 m
 - `npm 7.7.6`
 
 ###To run Backend server
-- `./gradlew bootrun` 
+- `./gradlew bootrun` . It will run backend server at http://localhost:8080
 
 ###To run Client
 - `cd client`
 - `npm build`
-- `npm start`
+- `npm start`. It will run client at http://localhost:3000
 
 ## Codebase Layout
 
