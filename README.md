@@ -58,11 +58,9 @@ The following requests can be sent by clients to interact with the server.
 
 ## Running Tests
 
-You must have Java 1.8 installed to run the test suite as well as gradle.
+You must have Java 11 installed to run the test suite as well as gradle.
 
-You can either run `./run_test.sh` to invoke the test suite or use your IDE. It'll execute the tests in `src/test/java/com/stockproject/stockmarket/`.
-
-The tests will wipe out the database each time before running, so you are free to make any changes to the DB you want while exploring.
+You can run `./gradlew test` to invoke the test suite or use your IDE. It'll execute the tests in `src/test/java/com/stockproject/stockmarket/`.
 
 ## Schema Changes
 
